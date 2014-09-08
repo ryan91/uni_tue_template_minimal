@@ -14,7 +14,7 @@
 % MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
 % General Public License
 
-\LoadClass[a4paper,11pt,fleqn]{scrartcl}
+\LoadClass[a4paper,11pt,fleqn,oneside]{scrartcl}
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{utt_minimal}
@@ -32,8 +32,7 @@
 % set text and page margins
 \setlength{\footskip}{0cm}
 \setlength{\textheight}{24.5cm}
-\setlength{\oddsidemargin}{-1cm}
-\setlength{\evensidemargin}{1cm}
+\addtolength{\oddsidemargin}{-7mm}
 \setlength{\textwidth}{16cm}
 
 % paragraph indent and space
